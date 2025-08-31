@@ -1,0 +1,1 @@
+Given an array A and an integer B, good pair if i!=j and A[i]+A[j]=B return 1 else return 0
