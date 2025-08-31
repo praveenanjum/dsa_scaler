@@ -1,2 +1,3 @@
 # dsa_scaler
-DSA Practice 
+
+This repo is for DSA practice! 
