@@ -54,3 +54,166 @@ Input 1:
 Input 2:
 
  A = [1, 1, 3, 3]
+
+
+ max_sum_contiguous_subarray:
+
+ Problem Description
+
+Given an array A of length N, your task is to find the maximum possible sum of any non-empty contiguous subarray.
+
+In other words, among all possible subarrays of A, determine the one that yields the highest sum and return that sum.
+
+
+
+Problem Constraints
+
+1 <= N <= 106
+-1000 <= A[i] <= 1000
+
+
+
+Input Format
+
+The first and the only argument contains an integer array, A.
+
+
+
+Output Format
+
+Return an integer representing the maximum possible sum of the contiguous subarray.
+
+
+
+Example Input
+
+Input 1:
+
+ A = [1, 2, 3, 4, -10] 
+Input 2:
+
+ A = [-2, 1, -3, 4, -1, 2, 1, -5, 4] 
+
+
+Example Output
+
+Output 1:
+
+ 10 
+Output 2:
+
+ 6 
+
+
+Example Explanation
+
+Explanation 1:
+
+ The subarray [1, 2, 3, 4] has the maximum possible sum of 10. 
+Explanation 2:
+
+ The subarray [4,-1,2,1] has the maximum possible sum of 6. 
+
+ Leaders in an array:
+ Problem Description
+
+Given an integer array A containing N distinct integers, you have to find all the leaders in array A. An element is a leader if it is strictly greater than all the elements to its right side.
+
+NOTE: The rightmost element is always a leader.
+
+
+Problem Constraints
+
+1 <= N <= 105
+1 <= A[i] <= 108
+
+
+Input Format
+
+There is a single input argument which a integer array A
+
+
+Output Format
+
+Return an integer array denoting all the leader elements of the array.
+
+
+Example Input
+
+Input 1:
+ A = [16, 17, 4, 3, 5, 2]
+Input 2:
+ A = [5, 4]
+
+
+Example Output
+
+Output 1:
+[17, 2, 5]
+Output 2:
+[5, 4]
+
+
+Example Explanation
+
+Explanation 1:
+ Element 17 is strictly greater than all the elements on the right side to it.
+ Element 2 is strictly greater than all the elements on the right side to it.
+ Element 5 is strictly greater than all the elements on the right side to it.
+ So we will return these three elements i.e [17, 2, 5], we can also return [2, 5, 17] or [5, 2, 17] or any other ordering.
+Explanation 2:
+ Element 5 is strictly greater than all the elements on the right side to it.
+ Element 4 is strictly greater than all the elements on the right side to it.
+ So we will return these two elements i.e [5, 4], we can also any other ordering.
+
+
+
+ Rotation Game:
+Problem Description
+
+Given an integer array A of size N and an integer B, you have to print the same array after rotating it B times towards the right.
+
+
+Problem Constraints
+
+1 <= N <= 106
+1 <= A[i] <=108
+1 <= B <= 109
+
+
+Input Format
+
+There are 2 lines in the input
+
+Line 1: The first number is the size N of the array A. Then N numbers follow which indicate the elements in the array A.
+
+Line 2: A single integer B.
+
+
+Output Format
+
+Print array A after rotating it B times towards the right.
+
+
+Example Input
+
+Input 1 :
+4 1 2 3 4
+2
+
+
+Example Output
+
+Output 1 :
+3 4 1 2
+
+
+Example Explanation
+
+Example 1 :
+
+N = 4, A = [1, 2, 3, 4] and B = 2.
+
+Rotate towards the right 2 times - [1, 2, 3, 4] => [4, 1, 2, 3] => [3, 4, 1, 2]
+
+Final array = [3, 4, 1, 2]
