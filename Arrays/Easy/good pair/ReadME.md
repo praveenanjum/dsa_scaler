@@ -217,3 +217,101 @@ N = 4, A = [1, 2, 3, 4] and B = 2.
 Rotate towards the right 2 times - [1, 2, 3, 4] => [4, 1, 2, 3] => [3, 4, 1, 2]
 
 Final array = [3, 4, 1, 2]
+
+Multiplication of previous and next:
+
+Given an array of integers A, update every element with multiplication of previous and next elements with following exceptions. a) First element is replaced by multiplication of first and second. b) Last element is replaced by multiplication of last and second last.
+
+
+Input Format
+
+The only argument given is the integer array A.
+Output Format
+
+Return the updated array.
+Constraints
+
+1 <= length of the array <= 100000
+-10^4 <= A[i] <= 10^4 
+For Example
+
+Input 1:
+    A = [1, 2, 3, 4, 5]
+Output 1:
+    [2, 3, 8, 15, 20]
+
+Input 2:
+    A = [5, 17, 100, 11]
+Output 2:
+    [85, 500, 187, 1100]
+
+
+
+Primal Power:
+Problem Description
+
+"Primal Power" of an array is defined as the count of prime numbers present in it.
+
+Given an array of integers A of length N, you have to calculate its Primal Power.
+
+
+
+Problem Constraints
+
+1 <= N <= 103
+
+-106 <= A[i] <= 106
+
+
+
+Input Format
+
+First and only argument is an integer array A.
+
+
+
+Output Format
+
+Return the Primal Power of array A.
+
+
+
+Example Input
+
+Input 1:
+
+ A = [-6, 10, 12]
+Input 2:
+
+ A = [-11, 7, 8, 9, 10, 11]
+
+ MAx-Min:
+
+ Given an array of integers A and an integer B, find and return the difference of B'th max element and B'th min element of the array A.
+
+
+Input Format
+
+The first argument given is the integer array A.
+The second argument given is integer B.
+Output Format
+
+Return the value of B'th max element of A - B'th min element of A.
+Constraints
+
+1 <= B <= length of the array <= 100000
+-10^9 <= A[i] <= 10^9 
+For Example
+
+Input 1:
+    A = [1, 2, 3, 4, 5]
+    B = 2
+Output 1:
+    2   (4 - 2 = 2)
+
+Input 2:
+    A = [5, 17, 100, 11]
+    B = 1
+Output 2:
+    95  (100 - 5 = 95)
+
